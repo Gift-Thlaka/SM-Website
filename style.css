@@ -75,8 +75,8 @@ h4 {
 }
 
 .p{
-    margin-bottom: 0.5%;
-    FONT-WEIGHT: BOLD;
+    margin-bottom: 2%;
+    font-weight: bold;
 }
 
 a {
@@ -249,6 +249,10 @@ ol {
     /* SECTION A */
     .container {
         margin-top: 0;
+    }
+
+    .p{
+        margin-bottom: 0.5%;
     }
 
     img {
