@@ -94,6 +94,30 @@ img {
 
 /* SECTION B */
 
+.sectionB {
+    position: relative;
+    background-image: url("assets/guide.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionB::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.sectionB > * {
+    position: relative;
+    z-index: 1;
+}
+
 .guideCont {
     padding: 10px;
     width: 100%;
@@ -104,6 +128,7 @@ img {
     margin-top: 5%;
     row-gap: 20px;
     margin-top: 15%;
+    background-color: rgba(0,0,0,0.7);
 }
 
 ol {
